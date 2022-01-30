@@ -9,7 +9,7 @@ export default {
   name: 'IndexPage',
   head(){
     return {
-      title: 'Dad Jokes',
+      title: 'Home | Dad Jokes',
       meta: [
         {
           hid: 'description',
