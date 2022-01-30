@@ -7,7 +7,19 @@
 
 <script>
 export default {
-  name: 'About'
+  name: 'About',
+  head(){
+    return {
+      title: 'About Dad Jokes', // title in browser tab
+      meta: [ // meta tags
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'About Nuxt Dad Jokes'
+        }
+      ]
+    }
+  }
 }
 </script>
 
